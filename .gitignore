@@ -1,0 +1,7 @@
+*.pyc
+*.xcuserstate
+*/Breakpoints.xcbkptlist
+build/
+vid-wall/videos.bundle
+vid-wall/vidwall.xcodeproj/project.xcworkspace/xcuserdata
+vid-wall/vidwall.xcodeproj/xcuserdata/

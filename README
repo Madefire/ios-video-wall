@@ -9,5 +9,48 @@ Patches/improvements welcomed.
 This code is licensed under the BSD license, see LICENSE in the same directory
 as this README
 
+REQUIREMENTS:
+
+avconv is required to cut up videos and ImageMagick's convert is required to
+cut up images.
+
+USAGE:
+
+Cutting up Videos:
+
+Cut up your videos using cutup.py
+
+    ./cutup.py --rows=3 --cols=7 input_video.mov \
+        vid-wall/vidwall/videos.bundle/out
+
+input_video.mov will be cut up in to 3 rows of 7 cols and the resulting videos
+will be in the directory vid-wall/vidwall/videos.bundle with the prefix out,
+numbered out-00.mov through out out-26.mov
+
+Server:
+
+To run the manager server you must first edit manager.py and provide it with
+the names and durations of your videos. In the case of the above example the
+name would be 'out'.
+
+App:
+
+To run the iOS app you must first provide it with videos. They should be cut up
+and named according to the pattern in the cutup.py section. They should be
+played in to a bundle in the vid-wall/vidwall direction named vidoes.bundle.
+
+Once the app is running on a device or simulator you must enter the ip address
+of the server and then select the position of the device in the grid provided.
+It will then attempt to connect to the manager server and will join in when the
+next video is prepared and played.
+
+Effort has been made to make the system robust to failure and aggresive in
+reconnecting. Over 4 and 1/2 days of running at Comic-Con we only had to
+restart a device once or twice and the manager ran 24 hours a day.
+
+Currently the app has a 7x3 grid hard-coded in, but it should be possible to
+make the grid dynamic, or at least a compile time setting with reasonable
+effort, patches welcome :)
+
 Copyright (c) 2012, Madefire Inc.
 All rights reserved.
