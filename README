@@ -1,0 +1,13 @@
+The code found here was used to be an iPad Video Wall for the Madefire booth at
+Comic-Con San Diego. More information can be found in the following blog post:
+    http://engineering.madefire.com/2012/07/12/ipad-video-wall-for-comic-con/
+
+The code is provided as-is. It's not pretty, what would you expect form a day
+and a half of hacking around to get it to work, but it got the job done.
+Patches/improvements welcomed. 
+
+This code is licensed under the BSD license, see LICENSE in the same directory
+as this README
+
+Copyright (c) 2012, Madefire Inc.
+All rights reserved.
