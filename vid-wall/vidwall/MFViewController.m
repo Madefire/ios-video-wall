@@ -75,7 +75,7 @@
     NSString *path = [NSString stringWithFormat:videoUrlFormat, moviePrefix, self.moviename.text];
     
     if ([dic objectForKey:path]) {
-        _ideoPlayer = [dic objectForKey:path];
+        _videoPlayer = [dic objectForKey:path];
         [_videoPlayer stop];
         NSLog(@"loading cached");
     }

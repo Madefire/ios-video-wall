@@ -21,7 +21,6 @@
 		347C495F15A0A86F005447D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 347C495D15A0A86F005447D7 /* InfoPlist.strings */; };
 		347C496215A0A86F005447D7 /* vidwallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 347C496115A0A86F005447D7 /* vidwallTests.m */; };
 		347C496C15A0A975005447D7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347C496B15A0A975005447D7 /* MediaPlayer.framework */; };
-		34E64F8215A1EAAC007E7AEA /* readme in Resources */ = {isa = PBXBuildFile; fileRef = 34E64F8115A1EAAC007E7AEA /* readme */; };
 		372922E015A35683002AB015 /* madefire_placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 372922DF15A35683002AB015 /* madefire_placeholder@2x.png */; };
 		3733E59115A77C61008D3CF9 /* logo-24.png in Resources */ = {isa = PBXBuildFile; fileRef = 3733E57015A77C61008D3CF9 /* logo-24.png */; };
 		3733E59215A77C61008D3CF9 /* logo-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 3733E57115A77C61008D3CF9 /* logo-25.png */; };
@@ -79,7 +78,6 @@
 		347C496015A0A86F005447D7 /* vidwallTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vidwallTests.h; sourceTree = "<group>"; };
 		347C496115A0A86F005447D7 /* vidwallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vidwallTests.m; sourceTree = "<group>"; };
 		347C496B15A0A975005447D7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		34E64F8115A1EAAC007E7AEA /* readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
 		372922DF15A35683002AB015 /* madefire_placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "madefire_placeholder@2x.png"; sourceTree = "<group>"; };
 		3733E57015A77C61008D3CF9 /* logo-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-24.png"; path = "placeholder_images/logo-24.png"; sourceTree = "<group>"; };
 		3733E57115A77C61008D3CF9 /* logo-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-25.png"; path = "placeholder_images/logo-25.png"; sourceTree = "<group>"; };
@@ -175,7 +173,6 @@
 				347C494615A0A86E005447D7 /* MFAppDelegate.m */,
 				347C494B15A0A86E005447D7 /* MFViewController.h */,
 				347C494C15A0A86E005447D7 /* MFViewController.m */,
-				34E64F8115A1EAAC007E7AEA /* readme */,
 			);
 			path = vidwall;
 			sourceTree = "<group>";
@@ -311,7 +308,6 @@
 			files = (
 				347C494115A0A86E005447D7 /* InfoPlist.strings in Resources */,
 				347C494A15A0A86E005447D7 /* MainStoryboard.storyboard in Resources */,
-				34E64F8215A1EAAC007E7AEA /* readme in Resources */,
 				37C70B1F15A247FB00A2C637 /* madefire_placeholder.png in Resources */,
 				372922E015A35683002AB015 /* madefire_placeholder@2x.png in Resources */,
 				37B61FEB15A644710057BC3F /* videos.bundle in Resources */,
